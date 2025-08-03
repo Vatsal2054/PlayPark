@@ -148,7 +148,7 @@ const LandingPage = () => {
                 >
                   Sign In
                 </Button>
-                <Button className="bg-purple-600 hover:bg-purple-700 text-white w-full">
+                <Button onClick={() => navigate('/login')} className="bg-purple-600 hover:bg-purple-700 text-white w-full">
                   Get Started
                 </Button>
               </div>
