@@ -144,6 +144,7 @@ const LandingPage = () => {
                 </a>
                 <Button
                   variant="outline"
+                  onClick={() => navigate('/signup')}
                   className="border-gray-300 text-gray-700 hover:bg-gray-50 w-full"
                 >
                   Sign In
@@ -184,7 +185,7 @@ const LandingPage = () => {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-32 lg:py-40">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-6 leading-tight">
-              Plan Epic Game Nights
+              Plan Epic Game Nights Now
             </h1>
 
             <p className="text-lg sm:text-xl md:text-2xl text-gray-600 mb-12 max-w-3xl mx-auto leading-relaxed">
